@@ -1,0 +1,20 @@
+# Phase-12 farm profile (JLab): event-type classifier, k-Λ vs DIS/NC on
+# 10x100. Select with:
+#   export TRKBKG_CONFIG=<checkout>/configs/farm-phase12.yaml
+# csv_root holds the k-Λ CSVs (8 full 10x100 files, phase-10 conversion);
+# the DIS CSVs live in the disnc campaign dir and are passed with --csv-dir:
+#   /work/eic3/users/romanov/disnc-2026-07-background/csv-2026-09-phase12/10x100_minQ2_{1,10,100}
+
+csv_root: /work/eic3/users/romanov/meson-structure-2026-06/csv-2026-09-bkg-phase10
+results_root: /work/eic3/users/romanov/optim-out/phase12
+
+parquet_dir: ${results_root}/parquet
+dataset_dir: ${results_root}/dataset
+runs_dir: ${results_root}/runs
+tmp_dir: ${results_root}/tmp
+runs_local_dir: ${results_root}/runs_local
+
+eic_workbench: /eic-workbench          # unused on the farm
+dd4hep_dir: /work/eic3/users/romanov/meson-structure-2026-06/dd4hep-background
+
+device: cuda

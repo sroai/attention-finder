@@ -1,0 +1,52 @@
+{
+  "run": "wver_v0",
+  "blocks": 0,
+  "margin": 0.0,
+  "baseline_reranker_test_overall": 0.9033,
+  "val": {
+    "frames": 3318,
+    "recall50_argmax": 0.8818565400843882,
+    "recall50_verifier": 0.8863773357444243,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8879252835223482,
+        "verifier": 0.8912608405603736
+      },
+      "10x130_v3": {
+        "argmax": 0.9164086687306502,
+        "verifier": 0.9215686274509803
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8268398268398268,
+        "verifier": 0.834054834054834
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8535031847133758,
+        "verifier": 0.8535031847133758
+      }
+    }
+  },
+  "test": {
+    "frames": 3350,
+    "recall50_argmax": 0.8788059701492538,
+    "recall50_verifier": 0.8805970149253731,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8832555036691128,
+        "verifier": 0.885256837891928
+      },
+      "10x130_v3": {
+        "argmax": 0.917766497461929,
+        "verifier": 0.9218274111675127
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8196480938416423,
+        "verifier": 0.8181818181818182
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8532608695652174,
+        "verifier": 0.8532608695652174
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "onnx_file": "model.onnx",
+  "score_threshold": 0.900826632976532,
+  "decision": "score >= threshold means background -> filter out",
+  "inputs": {
+    "hits": "float32 [N,4] raw (x mm, y mm, z mm, t ns)",
+    "system": "int64 [N], dense index; map raw system_id via system_ids list below (position = index)"
+  },
+  "system_ids": [
+    31,
+    59,
+    60,
+    61,
+    64,
+    68,
+    69,
+    70,
+    72,
+    77,
+    78,
+    79,
+    82,
+    92,
+    122,
+    150,
+    155,
+    156,
+    159,
+    160,
+    161,
+    162
+  ],
+  "max_abs_diff": 2.980232238769531e-07,
+  "onnx_file_bytes": 32764,
+  "cpu_ms_per_event": 1.185,
+  "event_size_hits": 8000,
+  "parity_hits_checked": 200000
+}

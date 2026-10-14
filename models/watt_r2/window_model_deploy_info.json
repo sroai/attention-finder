@@ -1,0 +1,21 @@
+{
+  "onnx_file": "window_model.onnx",
+  "inputs": {
+    "hits": "float32 [N,4] (x,y,z mm, dt ns; dt = t - t0_est)",
+    "system": "int64 [N] dense index (see phase-1 deploy_info)"
+  },
+  "window_ns": [
+    -50.0,
+    300.0
+  ],
+  "pipeline": "window_finder.onnx -> t0_est; inside hits -> this model; outside hits -> phase-1 model.onnx; thresholds in metrics_end_to_end.json",
+  "thresholds": {
+    "inside": 0.9846063256263733,
+    "outside": 0.8204870223999023
+  },
+  "max_abs_diff": 4.589557647705078e-06,
+  "onnx_file_bytes": 316503,
+  "cpu_ms_per_event": 2.974,
+  "event_size_hits": 1200,
+  "parity_hits_checked": 100000
+}

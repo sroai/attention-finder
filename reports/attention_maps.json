@@ -1,0 +1,12 @@
+{
+  "windows_used": 300,
+  "chance_attention_to_signal": 0.02861435251947274,
+  "signal_hits_attention_to_signal_mean": 0.5291979908943176,
+  "background_hits_attention_to_signal_mean": 0.6277951002120972,
+  "signal_over_chance": 18.494144439697266,
+  "background_over_chance": 21.93986701965332,
+  "signal_hits_attention_received_median": 9.304053703323007,
+  "background_hits_attention_received_median": 0.04642874024648336,
+  "signal_hits_attention_reach_mm_median": 831.0526733398438,
+  "background_hits_attention_reach_mm_median": 1944.8804931640625
+}

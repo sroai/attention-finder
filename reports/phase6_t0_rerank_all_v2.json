@@ -1,0 +1,91 @@
+{
+  "finder": "finder2d_v1",
+  "win_run": "watt_all_v1",
+  "k": 20,
+  "selector": "bce32 within-frame-std",
+  "margin": 0.75,
+  "train": {
+    "frames": 21905,
+    "recall50_argmax": 0.9114357452636385,
+    "recall50_reranked": 0.9368180780643689,
+    "topk_ceiling": 0.9989043597352203,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.9201428571428572,
+        "reranked": 0.962,
+        "ceiling": 0.998
+      },
+      "10x130_v3": {
+        "argmax": 0.9347339632023869,
+        "reranked": 0.9674291397314769,
+        "ceiling": 0.9991297861760319
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8655160014383315,
+        "reranked": 0.8734268248831356,
+        "ceiling": 0.9994606256742179
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.9168591224018475,
+        "reranked": 0.8829869130100076,
+        "ceiling": 1.0
+      }
+    }
+  },
+  "val": {
+    "frames": 3318,
+    "recall50_argmax": 0.8818565400843882,
+    "recall50_reranked": 0.9195298372513563,
+    "topk_ceiling": 0.9966847498493068,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8879252835223482,
+        "reranked": 0.9319546364242829,
+        "ceiling": 0.9979986657771848
+      },
+      "10x130_v3": {
+        "argmax": 0.9164086687306502,
+        "reranked": 0.9545923632610939,
+        "ceiling": 0.9948400412796697
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8268398268398268,
+        "reranked": 0.8542568542568543,
+        "ceiling": 0.9956709956709957
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8535031847133758,
+        "reranked": 0.8726114649681529,
+        "ceiling": 1.0
+      }
+    }
+  },
+  "test": {
+    "frames": 3350,
+    "recall50_argmax": 0.8788059701492538,
+    "recall50_reranked": 0.92,
+    "topk_ceiling": 0.9964179104477612,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8832555036691128,
+        "reranked": 0.9426284189459639,
+        "ceiling": 0.9946631087391594
+      },
+      "10x130_v3": {
+        "argmax": 0.917766497461929,
+        "reranked": 0.9604060913705583,
+        "ceiling": 0.9989847715736041
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8196480938416423,
+        "reranked": 0.8299120234604106,
+        "ceiling": 0.9956011730205279
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8532608695652174,
+        "reranked": 0.8532608695652174,
+        "ceiling": 1.0
+      }
+    }
+  }
+}

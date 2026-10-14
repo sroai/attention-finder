@@ -1,0 +1,59 @@
+{
+  "model": "window_net",
+  "blocks": 2,
+  "dim": 64,
+  "epochs": 15,
+  "lr": 0.001,
+  "windows_per_batch": 16,
+  "signal_weight": 37.28902666970595,
+  "target_eff_inwindow": 0.999,
+  "window_hits_meta": {
+    "wf_run": "wf_v2_r2",
+    "front_ns": 50.0,
+    "back_ns": 300.0,
+    "train_jitter_ns": 25.0,
+    "folds": {
+      "train": {
+        "hits_inside": 8400089,
+        "hits_total": 49398759,
+        "signal_total": 247058,
+        "signal_inside": 219350,
+        "signal_containment": 0.8878481975892301,
+        "background_inside_frac": 0.16641726163715106
+      },
+      "val": {
+        "hits_inside": 1801992,
+        "hits_total": 10605352,
+        "signal_total": 53140,
+        "signal_inside": 46537,
+        "signal_containment": 0.8757433195333082,
+        "background_inside_frac": 0.16633954960007688
+      },
+      "test": {
+        "hits_inside": 1792494,
+        "hits_total": 10584036,
+        "signal_total": 51365,
+        "signal_inside": 45322,
+        "signal_containment": 0.8823517959700184,
+        "background_inside_frac": 0.1658607123749138
+      }
+    },
+    "norm": {
+      "mean": [
+        -10.943440437316895,
+        0.14427055418491364,
+        76.47489166259766,
+        118.74766540527344,
+        249.7185516357422
+      ],
+      "std": [
+        232.4148406982422,
+        235.02938842773438,
+        2527.39404296875,
+        99.47467803955078,
+        220.91590881347656
+      ]
+    }
+  },
+  "train_hits": 8400089
+}

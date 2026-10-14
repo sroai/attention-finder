@@ -1,0 +1,32 @@
+{
+  "models_standalone": {
+    "baseline_rss_mb": 45.92578125,
+    "after_load_rss_mb": 56.93359375,
+    "after_inference_rss_mb": 79.72265625,
+    "peak_rss_mb": 79.72265625,
+    "sessions_mb": 11.0078125,
+    "inference_mb": 22.7890625,
+    "weights_on_disk_mb": 1.0499601364135742,
+    "files": {
+      "mlp_model.onnx": 32.0,
+      "window_finder2d.onnx": 734.1,
+      "window_model.onnx": 309.1
+    },
+    "attributable_ram_mb": 33.796875
+  },
+  "eicrecon_job_peak_rss": {
+    "unfilt": {
+      "peak_rss_gb_mean": 5.963733673095703,
+      "runs": 2
+    },
+    "finder": {
+      "peak_rss_gb_mean": 5.554187774658203,
+      "runs": 2
+    },
+    "ideal": {
+      "peak_rss_gb_mean": 5.397790908813477,
+      "runs": 2
+    }
+  },
+  "note": "the AI factory runs in ALL variants (its collections are persisted), so the unfilt-vs-filter difference is tracking memory, not model memory"
+}

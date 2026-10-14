@@ -1,0 +1,21 @@
+{
+  "model": "window_type_net",
+  "dataset": "images2d_p12",
+  "channels": 4,
+  "width": 32,
+  "blocks": 3,
+  "batchnorm": false,
+  "epochs": 40,
+  "batch": 256,
+  "lr": 0.001,
+  "augment": true,
+  "per_sample_roll": true,
+  "smooth": 0.05,
+  "cls_weight": 1.0,
+  "band_before": 1,
+  "band_after": 6,
+  "n_classes": 2,
+  "train_frames": 64134,
+  "val_frames": 7922,
+  "parameters": 185155
+}

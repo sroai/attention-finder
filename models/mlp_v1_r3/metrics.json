@@ -1,0 +1,187 @@
+{
+  "run": "mlp_v1_r3",
+  "epoch": 19,
+  "target_signal_efficiency": 0.99,
+  "threshold_from_val": 0.900826632976532,
+  "val": {
+    "threshold": 0.900826632976532,
+    "signal_efficiency": 0.9900313408601744,
+    "background_rejection": 0.13892805553718057,
+    "kept_fraction_of_all_hits": 0.8617239672950036,
+    "auc": 0.8647936895616771,
+    "albedo_filtered_fraction": 0.0,
+    "albedo_hits": 608
+  },
+  "test": {
+    "threshold": 0.900826632976532,
+    "signal_efficiency": 0.9881625545402962,
+    "background_rejection": 0.1390251926585383,
+    "kept_fraction_of_all_hits": 0.8615968426411248,
+    "auc": 0.8627519734380438,
+    "albedo_filtered_fraction": 0.018786127167630062,
+    "albedo_hits": 692
+  },
+  "test_per_system": {
+    "31": {
+      "name": "VertexBarrel_0",
+      "hits": 3338274,
+      "signal_eff": 0.9794924378364522,
+      "bkg_rejection": 0.10070402045613747
+    },
+    "59": {
+      "name": "TrackerBarrel_0",
+      "hits": 843947,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "60": {
+      "name": "TrackerBarrel_1",
+      "hits": 633353,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0003202039159987402
+    },
+    "61": {
+      "name": "TrackerBarrel_2",
+      "hits": 186248,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "64": {
+      "name": "TrackerBarrel_5",
+      "hits": 40871,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "68": {
+      "name": "TrackerEndcapN_0",
+      "hits": 480110,
+      "signal_eff": 0.9937888198757764,
+      "bkg_rejection": 0.014864577380480637
+    },
+    "69": {
+      "name": "TrackerEndcapN_1",
+      "hits": 856243,
+      "signal_eff": 0.864963503649635,
+      "bkg_rejection": 0.31292326144975924
+    },
+    "70": {
+      "name": "TrackerEndcapN_2",
+      "hits": 1511773,
+      "signal_eff": 0.8901587301587301,
+      "bkg_rejection": 0.33282699326704557
+    },
+    "72": {
+      "name": "TrackerEndcapN_4",
+      "hits": 34490,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "77": {
+      "name": "TrackerEndcapP_0",
+      "hits": 405798,
+      "signal_eff": 0.7760252365930599,
+      "bkg_rejection": 0.315846196720422
+    },
+    "78": {
+      "name": "TrackerEndcapP_1",
+      "hits": 552011,
+      "signal_eff": 0.7604456824512534,
+      "bkg_rejection": 0.4045170108474969
+    },
+    "79": {
+      "name": "TrackerEndcapP_2",
+      "hits": 170467,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "82": {
+      "name": "TrackerEndcapP_5",
+      "hits": 17257,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "92": {
+      "name": "BarrelTOF",
+      "hits": 1487793,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "122": {
+      "name": "ForwardTOF",
+      "hits": 7291,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "150": {
+      "name": "B0Tracker_Station_1",
+      "hits": 8012,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "155": {
+      "name": "ForwardRomanPot_Station_1",
+      "hits": 4513,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "156": {
+      "name": "ForwardRomanPot_Station_2",
+      "hits": 3421,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "159": {
+      "name": "ForwardOffMTracker_station_1",
+      "hits": 462,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "160": {
+      "name": "ForwardOffMTracker_station_2",
+      "hits": 471,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "161": {
+      "name": "ForwardOffMTracker_station_3",
+      "hits": 622,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    },
+    "162": {
+      "name": "ForwardOffMTracker_station_4",
+      "hits": 609,
+      "signal_eff": 1.0,
+      "bkg_rejection": 0.0
+    }
+  },
+  "per_system_thresholds": {
+    "31": 0.9066317677497864,
+    "59": 0.8269825577735901,
+    "60": 0.8491055965423584,
+    "61": 0.49713265895843506,
+    "64": 0.15546002984046936,
+    "68": 0.8984164595603943,
+    "69": 0.941423773765564,
+    "70": 0.9421716928482056,
+    "72": 0.6947932243347168,
+    "77": 0.9298005700111389,
+    "78": 0.9662818312644958,
+    "79": 0.8424155712127686,
+    "82": 0.7784207463264465,
+    "92": 0.8164668679237366,
+    "122": 0.5231527090072632,
+    "150": 0.005369786638766527,
+    "155": 0.0006368837784975767,
+    "156": 0.0004540178633760661,
+    "159": 0.0004640874103643,
+    "160": 0.00041664260788820684,
+    "161": 0.00043605040991678834,
+    "162": 0.0004311014781706035
+  },
+  "test_per_system_thresholds_mode": {
+    "signal_efficiency": 0.9850906885284392,
+    "background_rejection": 0.06151638280004201,
+    "kept_fraction_of_all_hits": 0.9387111873013282
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "selector": "combined hand+wver, bce32, within-frame std",
+  "wver": "wver_v3",
+  "margin": 0.0,
+  "k": 20,
+  "train": {
+    "frames": 21905,
+    "recall50_argmax": 0.9114357452636385,
+    "recall50_combined": 0.9521113900935859,
+    "topk_ceiling": 0.9989043597352203,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.9201428571428572,
+        "combined": 0.9715714285714285
+      },
+      "10x130_v3": {
+        "argmax": 0.9347339632023869,
+        "combined": 0.9819741422178021
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8655160014383315,
+        "combined": 0.8948220064724919
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.9168591224018475,
+        "combined": 0.9076212471131639
+      }
+    }
+  },
+  "val": {
+    "frames": 3318,
+    "recall50_argmax": 0.8818565400843882,
+    "recall50_combined": 0.9336949969861362,
+    "topk_ceiling": 0.9966847498493068,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8879252835223482,
+        "combined": 0.9506337558372249
+      },
+      "10x130_v3": {
+        "argmax": 0.9164086687306502,
+        "combined": 0.9638802889576883
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8268398268398268,
+        "combined": 0.873015873015873
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8535031847133758,
+        "combined": 0.8535031847133758
+      }
+    }
+  },
+  "test": {
+    "frames": 3350,
+    "recall50_argmax": 0.8788059701492538,
+    "recall50_combined": 0.935820895522388,
+    "topk_ceiling": 0.9964179104477612,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8832555036691128,
+        "combined": 0.9513008672448299
+      },
+      "10x130_v3": {
+        "argmax": 0.917766497461929,
+        "combined": 0.9746192893401016
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8196480938416423,
+        "combined": 0.8695014662756598
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8532608695652174,
+        "combined": 0.8478260869565217
+      }
+    }
+  }
+}

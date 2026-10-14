@@ -1,0 +1,63 @@
+{
+  "model": "window_net",
+  "blocks": 2,
+  "dim": 64,
+  "epochs": 12,
+  "lr": 0.001,
+  "windows_per_batch": 8,
+  "signal_weight": 65.04692011457058,
+  "target_eff_inwindow": 0.9900625846654023,
+  "window_hits_meta": {
+    "source": "images2d_v1 folds, true t0 (+wrong-window hard negatives in train)",
+    "front_ns": 50.0,
+    "back_ns": 300.0,
+    "train_jitter_ns": 25.0,
+    "wrong_min_dist_ns": 100.0,
+    "presets": [
+      "18x275_v3",
+      "10x130_v3",
+      "background_dvmp-10x275-25-10_v3",
+      "background-dis-nc-10x275_v3"
+    ],
+    "folds": {
+      "train": {
+        "windows": 43538,
+        "hits": 51555925,
+        "signal_total": 718517,
+        "signal_inside": 718023,
+        "signal_containment": 0.9993124727737827
+      },
+      "val": {
+        "windows": 3318,
+        "hits": 4081145,
+        "signal_total": 110737,
+        "signal_inside": 110730,
+        "signal_containment": 0.9999367871623758
+      },
+      "test": {
+        "windows": 3350,
+        "hits": 4190641,
+        "signal_total": 113063,
+        "signal_inside": 113062,
+        "signal_containment": 0.9999911553735528
+      }
+    },
+    "norm": {
+      "mean": [
+        -5.433717250823975,
+        0.08969719707965851,
+        -80.53080749511719,
+        101.90579223632812,
+        182.26084899902344
+      ],
+      "std": [
+        194.49571228027344,
+        210.13267517089844,
+        1178.4276123046875,
+        95.87694549560547,
+        184.72244262695312
+      ]
+    }
+  },
+  "train_hits": 51555925
+}

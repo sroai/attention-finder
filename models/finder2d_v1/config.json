@@ -1,0 +1,10 @@
+{
+  "model": "window_finder_2d",
+  "width": 32,
+  "epochs": 40,
+  "batch": 256,
+  "lr": 0.001,
+  "augment": true,
+  "train_frames": 21905,
+  "val_frames": 3318
+}

@@ -1,0 +1,78 @@
+{
+  "selector": "combined hand+wver, bce32, within-frame std",
+  "wver": "wver_v2",
+  "margin": 0.0,
+  "k": 10,
+  "train": {
+    "frames": 21905,
+    "recall50_argmax": 0.9114357452636385,
+    "recall50_combined": 0.9567222095412007,
+    "topk_ceiling": 0.9949783154530929,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.9201428571428572,
+        "combined": 0.9754285714285714
+      },
+      "10x130_v3": {
+        "argmax": 0.9347339632023869,
+        "combined": 0.9814768771755346
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8655160014383315,
+        "combined": 0.902732829917296
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.9168591224018475,
+        "combined": 0.9337952270977675
+      }
+    }
+  },
+  "val": {
+    "frames": 3318,
+    "recall50_argmax": 0.8818565400843882,
+    "recall50_combined": 0.919831223628692,
+    "topk_ceiling": 0.9879445449065702,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8879252835223482,
+        "combined": 0.9352901934623082
+      },
+      "10x130_v3": {
+        "argmax": 0.9164086687306502,
+        "combined": 0.9566563467492261
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8268398268398268,
+        "combined": 0.847041847041847
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8535031847133758,
+        "combined": 0.8662420382165605
+      }
+    }
+  },
+  "test": {
+    "frames": 3350,
+    "recall50_argmax": 0.8788059701492538,
+    "recall50_combined": 0.9208955223880597,
+    "topk_ceiling": 0.9895522388059701,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8832555036691128,
+        "combined": 0.933955970647098
+      },
+      "10x130_v3": {
+        "argmax": 0.917766497461929,
+        "combined": 0.9644670050761421
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8196480938416423,
+        "combined": 0.8475073313782991
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8532608695652174,
+        "combined": 0.8532608695652174
+      }
+    }
+  }
+}

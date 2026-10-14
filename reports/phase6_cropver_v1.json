@@ -1,0 +1,53 @@
+{
+  "run": "cropver_v1",
+  "finder": "finder2d_v1",
+  "k": 10,
+  "val": {
+    "frames": 3318,
+    "recall50_argmax": 0.8818565400843882,
+    "recall50_verifier": 0.882157926461724,
+    "topk_ceiling": 0.9879445449065702,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8879252835223482,
+        "verifier": 0.8879252835223482
+      },
+      "10x130_v3": {
+        "argmax": 0.9164086687306502,
+        "verifier": 0.9122807017543859
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8268398268398268,
+        "verifier": 0.8326118326118326
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8535031847133758,
+        "verifier": 0.8598726114649682
+      }
+    }
+  },
+  "test": {
+    "frames": 3350,
+    "recall50_argmax": 0.8788059701492538,
+    "recall50_verifier": 0.8802985074626866,
+    "topk_ceiling": 0.9895522388059701,
+    "per_preset": {
+      "18x275_v3": {
+        "argmax": 0.8832555036691128,
+        "verifier": 0.8865910607071381
+      },
+      "10x130_v3": {
+        "argmax": 0.917766497461929,
+        "verifier": 0.917766497461929
+      },
+      "background_dvmp-10x275-25-10_v3": {
+        "argmax": 0.8196480938416423,
+        "verifier": 0.8269794721407625
+      },
+      "background-dis-nc-10x275_v3": {
+        "argmax": 0.8532608695652174,
+        "verifier": 0.8260869565217391
+      }
+    }
+  }
+}

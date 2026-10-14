@@ -1,0 +1,12 @@
+{
+  "run": "p10_cal",
+  "epoch": 13,
+  "overall": {
+    "frames": 3988,
+    "within_25ns": 0.9989969909729187,
+    "within_50ns": 0.9997492477432297,
+    "within_100ns": 0.9997492477432297,
+    "top5_coverage": 1.0,
+    "top10_coverage": 1.0
+  }
+}

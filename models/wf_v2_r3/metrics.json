@@ -1,0 +1,74 @@
+{
+  "run": "wf_v2_r3",
+  "epoch": 136,
+  "test_frames": 1499,
+  "exact_bin": 0.5963975983989326,
+  "within_25ns": 0.7565043362241495,
+  "within_50ns": 0.7845230153435624,
+  "within_100ns": 0.7978652434956638,
+  "median_abs_err_ns": 10.1800537109375,
+  "late_by_gt25ns": 0.10873915943962642,
+  "early_by_gt100ns": 0.1027351567711808,
+  "containment": {
+    "front25_back150": {
+      "signal_containment": 0.855583165391614,
+      "background_inside": 0.08600222000297926
+    },
+    "front25_back200": {
+      "signal_containment": 0.878103660803381,
+      "background_inside": 0.1092194344882517
+    },
+    "front25_back300": {
+      "signal_containment": 0.8875344851200375,
+      "background_inside": 0.1535744632016076
+    },
+    "front25_back500": {
+      "signal_containment": 0.8974544600755249,
+      "background_inside": 0.23381786171380278
+    },
+    "front25_back1000": {
+      "signal_containment": 0.9184292394685868,
+      "background_inside": 0.39209045087112887
+    },
+    "front50_back150": {
+      "signal_containment": 0.8575984660235966,
+      "background_inside": 0.09814136501682673
+    },
+    "front50_back200": {
+      "signal_containment": 0.8801189614353636,
+      "background_inside": 0.12135857950209916
+    },
+    "front50_back300": {
+      "signal_containment": 0.8895497857520202,
+      "background_inside": 0.16571360821545505
+    },
+    "front50_back500": {
+      "signal_containment": 0.8994697607075075,
+      "background_inside": 0.24595700672765025
+    },
+    "front50_back1000": {
+      "signal_containment": 0.9204445401005694,
+      "background_inside": 0.4042295958849763
+    },
+    "front100_back150": {
+      "signal_containment": 0.8596920307577922,
+      "background_inside": 0.12191291523403894
+    },
+    "front100_back200": {
+      "signal_containment": 0.8822125261695591,
+      "background_inside": 0.14513012971931136
+    },
+    "front100_back300": {
+      "signal_containment": 0.8916433504862157,
+      "background_inside": 0.18948515843266725
+    },
+    "front100_back500": {
+      "signal_containment": 0.901563325441703,
+      "background_inside": 0.2697285569448625
+    },
+    "front100_back1000": {
+      "signal_containment": 0.922538104834765,
+      "background_inside": 0.42800114610218853
+    }
+  }
+}

@@ -1,0 +1,50 @@
+# attention-finder machine profile — THE DEFAULT, used when TRKBKG_CONFIG is unset
+#
+# This one file answers "where is everything on THIS machine?".
+# Scripts read it through trkbkg/config.py; select a different profile with
+#     export TRKBKG_CONFIG=/path/to/other.yaml
+# (configs/workstation-example.yaml is the profile the published results were
+# produced with; configs/farm-example.yaml is a slurm farm.)
+#
+# Relative paths below are relative to the repo checkout, so a fresh clone
+# works from any working directory: put (or symlink) your data under data/
+# and everything bulky lands under results/, which git ignores.
+#
+# Rule of thumb: STATIC facts about the machine live here; things you want
+# to vary per experiment (run name, epochs, model size) are script FLAGS.
+# Keep this file self-contained — no includes, no second file to chase.
+
+# ---- where the input data lives -------------------------------------------
+# Raw CSVs from eic2ai (xxxx.trk_hits.csv[.zip]), one folder per sample —
+# e.g. data/csv/18x275/0022.trk_hits.csv.zip. A symlink to your real CSV
+# store is the usual choice:  ln -s /my/big/disk/csv data/csv
+csv_root: data/csv
+
+# ---- where bulky outputs go (gitignored) -----------------------------------
+# Parquet, datasets and training runs are GBs — tens of GB for the full
+# window-finding chain. Point results_root at a disk that can take it.
+results_root: results
+
+parquet_dir: ${results_root}/parquet     # 110_convert writes <sample>_v3 here
+dataset_dir: ${results_root}/dataset     # 12x/13x/14x builders write here
+tmp_dir: ${results_root}/tmp             # scratch for conversions
+
+# ---- trained models --------------------------------------------------------
+# models/ holds the checkpoints shipped with the repo (see README). Your own
+# runs land next to them under the same names you pass on the command line;
+# git ignores everything in models/ except the shipped runs.
+#
+# runs_dir vs runs_local_dir is a historical split: live checkpoints went to
+# a fast local disk, finished runs to shared storage. Both default to models/
+# here; on a farm point runs_local_dir at node-local scratch.
+runs_dir: models
+runs_local_dir: models
+
+# ---- ROOT-file studies (2xx calorimeter displays, 6xx EICrecon) ------------
+# Only the scripts listed in the README under "needs campaign ROOT files"
+# read these; the CSV -> training -> analysis path does not.
+eic_workbench: /eic-workbench            # eicrecon sources + ai models dir
+dd4hep_dir: data/dd4hep                  # simulation output (edm4hep ROOT)
+
+# ---- compute ----------------------------------------------------------------
+device: cuda          # cuda | cpu — trainers fall back to cpu if no GPU

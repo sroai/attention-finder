@@ -1,0 +1,47 @@
+{
+  "unfilt": {
+    "events": 594,
+    "seeds_per_event_mean": 507.82996632996634,
+    "tracks_per_event_mean": 9.36026936026936,
+    "signal_primaries": 6022,
+    "signal_track_efficiency": 0.8068747924277648,
+    "track_purity_signal_fraction": 0.9210431654676259,
+    "nmeas_mean": 6.424100719424461,
+    "dpp_sigma_percent": 1.4486666582524776,
+    "dca_r_sigma_um": 76.37584730982783,
+    "vertices_per_event_mean": 1.2693602693602695,
+    "events_with_vertex": 0.9949494949494949,
+    "vertex_eff_1mm": 0.968013468013468,
+    "vertex_z_sigma_um": 17.869520187377926
+  },
+  "finder": {
+    "events": 594,
+    "seeds_per_event_mean": 104.94444444444444,
+    "tracks_per_event_mean": 8.80976430976431,
+    "signal_primaries": 6022,
+    "signal_track_efficiency": 0.7954168050481567,
+    "track_purity_signal_fraction": 0.9644563347983948,
+    "nmeas_mean": 6.506019491687368,
+    "dpp_sigma_percent": 1.4507578108459707,
+    "dca_r_sigma_um": 78.65785598754876,
+    "vertices_per_event_mean": 1.1397306397306397,
+    "events_with_vertex": 0.9966329966329966,
+    "vertex_eff_1mm": 0.9781144781144782,
+    "vertex_z_sigma_um": 17.240619659423828
+  },
+  "ideal": {
+    "events": 594,
+    "seeds_per_event_mean": 104.9023569023569,
+    "tracks_per_event_mean": 8.944444444444445,
+    "signal_primaries": 6022,
+    "signal_track_efficiency": 0.8078711391564264,
+    "track_purity_signal_fraction": 0.9648033126293996,
+    "nmeas_mean": 6.52437417654809,
+    "dpp_sigma_percent": 1.4488970395177603,
+    "dca_r_sigma_um": 77.65122503042221,
+    "vertices_per_event_mean": 1.1430976430976432,
+    "events_with_vertex": 0.9966329966329966,
+    "vertex_eff_1mm": 0.9797979797979798,
+    "vertex_z_sigma_um": 17.00061798095703
+  }
+}

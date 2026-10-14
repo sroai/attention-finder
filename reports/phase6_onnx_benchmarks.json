@@ -1,0 +1,44 @@
+{
+  "finder2d_v1 (stage-1 finder)": {
+    "onnx_file_kb": 32.4,
+    "parameters": 180289,
+    "ms_per_frame_1thread_cpu": 4.51,
+    "session_rss_mb": 8.7,
+    "torch_onnx_max_diff": 6.198883056640625e-06,
+    "unit": "one 2x64x88 frame image"
+  },
+  "wver_v1 (stage-1 verifier)": {
+    "onnx_file_kb": 103.5,
+    "parameters": 76657,
+    "ms_per_window_1thread_cpu": 3.835,
+    "ms_per_frame_10_candidates": 38.35,
+    "session_rss_mb": 0.2,
+    "torch_onnx_max_diff": 9.5367431640625e-07,
+    "unit": "one 512-hit candidate window (cap 512)"
+  },
+  "watt_r2 (stage-2 hit rejector)": {
+    "onnx_file_kb": 309.1,
+    "ms_per_window_1thread_cpu": 9.21,
+    "ms_per_frame_10_candidates_stage1": 92.1,
+    "session_rss_mb": 0.6,
+    "unit": "one 1200-hit window (per-hit scores)"
+  },
+  "mlp_v1_r3 (stage-2 out-of-window fallback)": {
+    "onnx_file_kb": 32.0,
+    "ms_per_frame_1thread_cpu": 1.04,
+    "session_rss_mb": 0.0,
+    "unit": "5800 out-of-window hits"
+  },
+  "selector (stage-1, 24 features x 10 cand)": {
+    "parameters": 833,
+    "ms_per_frame": "<0.01 (one 24->32->1 MLP pass on 10 rows)",
+    "onnx_file_kb": "~5 (not yet exported; trivial MatMul graph)"
+  },
+  "TOTALS": {
+    "stage1_window_finding_ms_per_frame": 135.0,
+    "stage1_note": "finder + 10x watt candidate scoring + 10x wver; the watt scoring dominates and is shared with stage 2 for the winning window",
+    "stage2_hit_rejection_ms_per_frame": 10.2,
+    "all_model_files_kb": 477.0,
+    "peak_session_rss_mb_sum": 9.5
+  }
+}

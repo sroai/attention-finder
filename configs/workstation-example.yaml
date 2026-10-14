@@ -1,0 +1,42 @@
+# attention-finder machine profile — EXAMPLE for a single workstation
+#
+# This is the profile the published results were produced with (paths of the
+# original workstation). Copy it, edit the paths, and select it with
+#     export TRKBKG_CONFIG=/path/to/my-machine.yaml
+#
+# This one file answers "where is everything on THIS machine?".
+# Scripts read it through trkbkg/config.py; select a different profile with
+#     export TRKBKG_CONFIG=/path/to/other.yaml
+# (see configs/farm-example.yaml for a farm/slurm profile).
+#
+# Rule of thumb: STATIC facts about the machine live here; things you want
+# to vary per experiment (run name, epochs, model size) are script FLAGS.
+# Keep this file self-contained — no includes, no second file to chase.
+
+# ---- where the input data lives -------------------------------------------
+# Raw CSVs from eic2ai (xxxx.trk_hits.csv[.zip]), one folder per sample.
+csv_root: /data/msf-2026-06/csv-ai-reco-background
+
+# ---- where bulky outputs go (NOT the git repo) -----------------------------
+# Parquet, datasets, and training runs are GBs — they live outside the repo.
+results_root: /data/msf-2026-06/ai-results
+
+parquet_dir: ${results_root}/parquet     # 110_convert writes <sample>_v3 here
+dataset_dir: ${results_root}/dataset     # 12x/13x/14x builders write here
+runs_dir: ${results_root}/runs           # finished training runs + ONNX
+tmp_dir: ${results_root}/tmp             # scratch for conversions
+
+# Checkpoints DURING training (fast local disk; survives /tmp cleanup).
+# Historical note: this was split from runs_dir when /data was NTFS and
+# wedged writers; /data is btrfs now, but a local checkpoint dir is still
+# the safe default on shared filesystems.
+runs_local_dir: /work/ai-trk-bkg/runs_local
+
+# ---- EICrecon integration (600-series scripts only) ------------------------
+eic_workbench: /eic-workbench            # eicrecon sources + ai models dir
+dd4hep_dir: /data/msf-2026-06/dd4hep-background
+
+# ---- compute ----------------------------------------------------------------
+device: cuda          # cuda | cpu — trainers fall back to cpu if no GPU
+# The GPU here is SHARED: check `nvidia-smi` before big trainings and prefer
+# the batch flags each trainer documents if memory is tight.

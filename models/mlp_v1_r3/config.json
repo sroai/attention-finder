@@ -1,0 +1,21 @@
+{
+  "dataset_dir": "/data/msf-2026-06/ai-results/dataset/18x275_v3",
+  "model": "hit_mlp",
+  "model_kwargs": {
+    "hidden": [
+      64,
+      64,
+      32
+    ],
+    "emb_dim": 8
+  },
+  "epochs": 25,
+  "batch_size": 65536,
+  "events_per_batch": 32,
+  "lr": 0.001,
+  "signal_weight": 199.7717220327685,
+  "target_eff": 0.99,
+  "seed": 0,
+  "train_hits": 49395666,
+  "val_hits": 10605352
+}

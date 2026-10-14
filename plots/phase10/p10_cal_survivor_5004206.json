@@ -1,0 +1,18 @@
+{
+  "gevt": 5004206,
+  "stem": "k_lambda_10x130_5000evt_0007",
+  "evt": 4206,
+  "t0_ns": 1758.260986328125,
+  "pred_ns": 1762.5,
+  "true_bin": 74,
+  "burst_bin": 27,
+  "burst_t_ns": 587.5,
+  "burst_gev": 70.83796691894531,
+  "signal_col_gev": 8.52256965637207,
+  "ratio": 8.311808586120605,
+  "logit_margin": 1.995314359664917,
+  "runner_up_bin": 73,
+  "n_sig_trk_hits": 35,
+  "n_sig_cal_hits": 276,
+  "sig_cal_gev": 29.048973083496094
+}

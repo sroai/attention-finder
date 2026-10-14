@@ -1,0 +1,56 @@
+{
+  "file": "/data/background-2026-07/pythia8NCDIS_10x275_minQ2=1000_beamEffects_xAngle=-0.025_hiDiv_1.0531.edm4hep.root",
+  "events": 99,
+  "stages": [
+    {
+      "label": "MC particles in frame",
+      "per_event": 55365.82828282828,
+      "note": ""
+    },
+    {
+      "label": "particles hitting central tracker",
+      "per_event": 3753.6666666666665,
+      "note": "93% never touch it"
+    },
+    {
+      "label": "all tracker sim hits (12 systems)",
+      "per_event": 8935.363636363636,
+      "note": "what the AI filter is shown"
+    },
+    {
+      "label": "central-tracker sim hits",
+      "per_event": 7603.545454545455,
+      "note": ""
+    },
+    {
+      "label": "above digi threshold",
+      "per_event": 7289.313131313132,
+      "note": "threshold cuts only 4%"
+    },
+    {
+      "label": "raw hits (same-cell merge, full 2000 ns)",
+      "per_event": 5739.010101010101,
+      "note": "no time cut"
+    },
+    {
+      "label": "rec hits",
+      "per_event": 3974.929292929293,
+      "note": ""
+    },
+    {
+      "label": "in seeder acceptance (33<r<440 mm)",
+      "per_event": 3834.686868686869,
+      "note": ""
+    },
+    {
+      "label": "track seeds",
+      "per_event": 506.2828282828283,
+      "note": "helix must point to beamline"
+    },
+    {
+      "label": "CKF tracks",
+      "per_event": 9.090909090909092,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "onnx_ms_per_event_1thread": {
+    "finder2d_image": 4.4897944972035475,
+    "watt_1000_inwindow_hits": 6.602385503356345,
+    "mlp_4200_outside_hits": 0.7539474972872995,
+    "mode_finder_total": 11.846127497847192,
+    "mode_ideal_total": 7.3563330006436445
+  },
+  "reco_cpu_ms_per_event": {
+    "unfilt": 607.316,
+    "finder": 278.435,
+    "ideal": 276.809
+  },
+  "janatop_ms_per_event": {
+    "ckf_fit_both_passes": {
+      "unfilt": 363.692,
+      "finder": 53.14,
+      "ideal": 53.543
+    },
+    "seeding": {
+      "unfilt": 13.5,
+      "finder": 4.524,
+      "ideal": 4.5489999999999995
+    },
+    "ai_filter_factory_in_situ": {
+      "unfilt": 14.632000000000001,
+      "finder": 14.328,
+      "ideal": 11.707999999999998
+    },
+    "note": "factory self-time from janatop (RECORD_CALL_STACK); CKF counts truth-seeded + real-seeded passes; in the unfilt runs the AI factory still executes (its output collections are persisted) but does not feed tracking"
+  }
+}

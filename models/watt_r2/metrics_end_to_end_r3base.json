@@ -1,0 +1,83 @@
+{
+  "win_run": "watt_r2",
+  "wf_run": "wf_v2_r3",
+  "outside_run": "mlp_v1_r3",
+  "window_ns": [
+    -50.0,
+    300.0
+  ],
+  "thresholds": {
+    "inside": 0.9919785857200623,
+    "outside": 0.8168560862541199
+  },
+  "val": {
+    "signal_efficiency": 0.9900502208964241,
+    "background_rejection": 0.3973792852730601,
+    "kept_fraction_of_all_hits": 0.6045756897083662,
+    "albedo_filtered_fraction": 0.047697368421052655
+  },
+  "test": {
+    "signal_efficiency": 0.9896887045334481,
+    "background_rejection": 0.3970553258638836,
+    "kept_fraction_of_all_hits": 0.6048327877947505,
+    "albedo_filtered_fraction": 0.08236994219653182
+  },
+  "test_curve": [
+    {
+      "target": 0.95,
+      "signal_efficiency": 0.9488348431783052,
+      "background_rejection": 0.8179218371029511,
+      "kept_fraction_of_all_hits": 0.185820607564071,
+      "albedo_filtered_fraction": 0.20809248554913296
+    },
+    {
+      "target": 0.96,
+      "signal_efficiency": 0.9593222328748361,
+      "background_rejection": 0.7556367665552468,
+      "kept_fraction_of_all_hits": 0.24785346535102487,
+      "albedo_filtered_fraction": 0.1777456647398844
+    },
+    {
+      "target": 0.97,
+      "signal_efficiency": 0.9684986988593007,
+      "background_rejection": 0.6821700237413997,
+      "kept_fraction_of_all_hits": 0.32100637223834083,
+      "albedo_filtered_fraction": 0.1560693641618497
+    },
+    {
+      "target": 0.98,
+      "signal_efficiency": 0.9792404468880236,
+      "background_rejection": 0.5674838246582989,
+      "kept_fraction_of_all_hits": 0.4351848387514933,
+      "albedo_filtered_fraction": 0.13005780346820806
+    },
+    {
+      "target": 0.985,
+      "signal_efficiency": 0.9851102545539925,
+      "background_rejection": 0.48587673936253795,
+      "kept_fraction_of_all_hits": 0.5164221852608967,
+      "albedo_filtered_fraction": 0.10982658959537572
+    },
+    {
+      "target": 0.99,
+      "signal_efficiency": 0.9896887045334481,
+      "background_rejection": 0.3970553258638836,
+      "kept_fraction_of_all_hits": 0.6048327877947505,
+      "albedo_filtered_fraction": 0.08236994219653182
+    },
+    {
+      "target": 0.995,
+      "signal_efficiency": 0.9946976070750748,
+      "background_rejection": 0.26847653893024603,
+      "kept_fraction_of_all_hits": 0.7328096767622484,
+      "albedo_filtered_fraction": 0.033236994219653204
+    },
+    {
+      "target": 0.998,
+      "signal_efficiency": 0.9972998884736544,
+      "background_rejection": 0.1597283957298712,
+      "kept_fraction_of_all_hits": 0.8410386170266239,
+      "albedo_filtered_fraction": 0.026011560693641633
+    }
+  ]
+}

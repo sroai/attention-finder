@@ -1,0 +1,34 @@
+{
+  "onnx_file": "window_finder.onnx",
+  "input": "frame_features float32 [1, 11, 88]",
+  "output": "bin_logits float32 [1, 88]; t0_est_ns = -100.0 + 25.0 * argmax(bin_logits)",
+  "bin_ns": 25.0,
+  "t_min_ns": -100.0,
+  "features_per_bin (hits with t in [edge, edge+25ns))": {
+    "0": "log1p_n_hits",
+    "1": "log1p_n_outer",
+    "2": "log1p_n_farfwd",
+    "3": "log1p_n_backward",
+    "4": "log1p_n_vertex",
+    "5": "r_std",
+    "6": "z_std",
+    "7": "occupancy_contrast",
+    "8": "n_distinct_systems",
+    "9": "n_barrel_layers",
+    "10": "log1p_n_tof"
+  },
+  "feature_definitions": {
+    "log1p_n_hits": "log(1 + count of all hits in bin)",
+    "log1p_n_outer": "log1p count with sqrt(x^2+y^2)>550 && |z|<1600 [mm]",
+    "log1p_n_farfwd": "log1p count with z>4000",
+    "log1p_n_backward": "log1p count with z<-1200",
+    "log1p_n_vertex": "log1p count with r<150",
+    "r_std": "stddev of r in bin / 100",
+    "z_std": "stddev of z in bin / 1000",
+    "occupancy_contrast": "bin count / (frame hits / 88)"
+  },
+  "max_abs_diff": 1.3172626495361328e-05,
+  "argmax_agreement": 1.0,
+  "onnx_file_bytes": 41764,
+  "cpu_ms_per_frame": 0.0268
+}

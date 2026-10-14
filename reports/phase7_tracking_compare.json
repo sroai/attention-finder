@@ -1,0 +1,47 @@
+{
+  "unfilt": {
+    "events": 10000,
+    "seeds_per_event_mean": 577.8717,
+    "tracks_per_event_mean": 2.6021,
+    "signal_primaries": 19958,
+    "signal_track_efficiency": 0.9682833951297726,
+    "track_purity_signal_fraction": 0.7430536874063257,
+    "nmeas_mean": 6.663118250643711,
+    "dpp_sigma_percent": 0.9433547575026748,
+    "dca_r_sigma_um": 8.47861725836992,
+    "vertices_per_event_mean": 0.9715,
+    "events_with_vertex": 0.9565,
+    "vertex_eff_1mm": 0.8276,
+    "vertex_z_sigma_um": 10.034294128417969
+  },
+  "finder": {
+    "events": 10000,
+    "seeds_per_event_mean": 147.6909,
+    "tracks_per_event_mean": 2.1145,
+    "signal_primaries": 19958,
+    "signal_track_efficiency": 0.9555065637839463,
+    "track_purity_signal_fraction": 0.9022463939465595,
+    "nmeas_mean": 7.230172617640104,
+    "dpp_sigma_percent": 0.9371545668691396,
+    "dca_r_sigma_um": 8.428469970822333,
+    "vertices_per_event_mean": 0.9338,
+    "events_with_vertex": 0.9324,
+    "vertex_eff_1mm": 0.8698,
+    "vertex_z_sigma_um": 6.536674499511718
+  },
+  "ideal": {
+    "events": 10000,
+    "seeds_per_event_mean": 148.3598,
+    "tracks_per_event_mean": 2.1414,
+    "signal_primaries": 19958,
+    "signal_track_efficiency": 0.9683335003507365,
+    "track_purity_signal_fraction": 0.9029606799290184,
+    "nmeas_mean": 7.228542075277856,
+    "dpp_sigma_percent": 0.9429828077554704,
+    "dca_r_sigma_um": 8.480868488550186,
+    "vertices_per_event_mean": 0.9519,
+    "events_with_vertex": 0.9505,
+    "vertex_eff_1mm": 0.889,
+    "vertex_z_sigma_um": 6.59921646118164
+  }
+}

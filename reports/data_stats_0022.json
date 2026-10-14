@@ -1,0 +1,155 @@
+{
+  "total_hits": 35282728,
+  "events": 5000,
+  "origin_counts": {
+    "1 (signal)": 84935,
+    "2 (signal-secondary)": 87466,
+    "3 (background)": 34349126,
+    "4 (background-secondary)": 759061,
+    "5 (signal-albedo)": 2140
+  },
+  "unknown_origin_hits": 0,
+  "signal_hits": 172401,
+  "background_hits": 35108187,
+  "signal_fraction": 0.004886568217060328,
+  "hits_per_event": {
+    "mean": 7056.5456,
+    "min": 6543,
+    "max": 10633
+  },
+  "signal_hits_per_event_mean": 34.4802,
+  "per_system": {
+    "31": {
+      "name": "VertexBarrel_0",
+      "hits": 11123235,
+      "signal_hits": 25225,
+      "signal_fraction": 0.002267775516744904
+    },
+    "59": {
+      "name": "TrackerBarrel_0",
+      "hits": 2813666,
+      "signal_hits": 7697,
+      "signal_fraction": 0.002735577001676816
+    },
+    "60": {
+      "name": "TrackerBarrel_1",
+      "hits": 2109603,
+      "signal_hits": 8062,
+      "signal_fraction": 0.0038215721157013904
+    },
+    "61": {
+      "name": "TrackerBarrel_2",
+      "hits": 618654,
+      "signal_hits": 15679,
+      "signal_fraction": 0.025343730097922262
+    },
+    "64": {
+      "name": "TrackerBarrel_5",
+      "hits": 136880,
+      "signal_hits": 17159,
+      "signal_fraction": 0.12535797779076563
+    },
+    "68": {
+      "name": "TrackerEndcapN_0",
+      "hits": 1604440,
+      "signal_hits": 2181,
+      "signal_fraction": 0.0013593527959911247
+    },
+    "69": {
+      "name": "TrackerEndcapN_1",
+      "hits": 2851790,
+      "signal_hits": 2935,
+      "signal_fraction": 0.0010291781652926758
+    },
+    "70": {
+      "name": "TrackerEndcapN_2",
+      "hits": 5030567,
+      "signal_hits": 5449,
+      "signal_fraction": 0.0010831780990095152
+    },
+    "72": {
+      "name": "TrackerEndcapN_4",
+      "hits": 116125,
+      "signal_hits": 2576,
+      "signal_fraction": 0.022182992465016146
+    },
+    "77": {
+      "name": "TrackerEndcapP_0",
+      "hits": 1360425,
+      "signal_hits": 1069,
+      "signal_fraction": 0.000785783854310234
+    },
+    "78": {
+      "name": "TrackerEndcapP_1",
+      "hits": 1841948,
+      "signal_hits": 1238,
+      "signal_fraction": 0.0006721145222340696
+    },
+    "79": {
+      "name": "TrackerEndcapP_2",
+      "hits": 570938,
+      "signal_hits": 2046,
+      "signal_fraction": 0.0035835765004256152
+    },
+    "82": {
+      "name": "TrackerEndcapP_5",
+      "hits": 59850,
+      "signal_hits": 834,
+      "signal_fraction": 0.01393483709273183
+    },
+    "92": {
+      "name": "BarrelTOF",
+      "hits": 4955316,
+      "signal_hits": 28010,
+      "signal_fraction": 0.005652515399623354
+    },
+    "122": {
+      "name": "ForwardTOF",
+      "hits": 25546,
+      "signal_hits": 469,
+      "signal_fraction": 0.018359038597040633
+    },
+    "150": {
+      "name": "B0Tracker_Station_1",
+      "hits": 29413,
+      "signal_hits": 19900,
+      "signal_fraction": 0.6765715839934723
+    },
+    "155": {
+      "name": "ForwardRomanPot_Station_1",
+      "hits": 15256,
+      "signal_hits": 14229,
+      "signal_fraction": 0.9326822233875197
+    },
+    "156": {
+      "name": "ForwardRomanPot_Station_2",
+      "hits": 12503,
+      "signal_hits": 11435,
+      "signal_fraction": 0.9145805006798369
+    },
+    "159": {
+      "name": "ForwardOffMTracker_station_1",
+      "hits": 1553,
+      "signal_hits": 1486,
+      "signal_fraction": 0.9568576947842885
+    },
+    "160": {
+      "name": "ForwardOffMTracker_station_2",
+      "hits": 1546,
+      "signal_hits": 1485,
+      "signal_fraction": 0.9605433376455369
+    },
+    "161": {
+      "name": "ForwardOffMTracker_station_3",
+      "hits": 1752,
+      "signal_hits": 1630,
+      "signal_fraction": 0.930365296803653
+    },
+    "162": {
+      "name": "ForwardOffMTracker_station_4",
+      "hits": 1722,
+      "signal_hits": 1607,
+      "signal_fraction": 0.9332171893147503
+    }
+  }
+}

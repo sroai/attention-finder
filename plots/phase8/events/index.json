@@ -1,0 +1,98 @@
+[
+  {
+    "file": "rescued_18x275_61.png",
+    "category": "rescued",
+    "preset": "18x275",
+    "gevt": 61,
+    "argmax_err_ns": -864.4610595703125,
+    "selector_err_ns": -14.4610595703125
+  },
+  {
+    "file": "rescued_10x130_100000719.png",
+    "category": "rescued",
+    "preset": "10x130",
+    "gevt": 100000719,
+    "argmax_err_ns": 759.7109985351562,
+    "selector_err_ns": -15.28900146484375
+  },
+  {
+    "file": "rescued_DVMP_201000016.png",
+    "category": "rescued",
+    "preset": "DVMP",
+    "gevt": 201000016,
+    "argmax_err_ns": 1263.739013671875,
+    "selector_err_ns": -36.260986328125
+  },
+  {
+    "file": "rescued_DIS-NC_305000013.png",
+    "category": "rescued",
+    "preset": "DIS-NC",
+    "gevt": 305000013,
+    "argmax_err_ns": 563.8150024414062,
+    "selector_err_ns": 38.81500244140625
+  },
+  {
+    "file": "rescued_18x275_229.png",
+    "category": "rescued",
+    "preset": "18x275",
+    "gevt": 229,
+    "argmax_err_ns": -557.5780029296875,
+    "selector_err_ns": -32.5780029296875
+  },
+  {
+    "file": "rescued_10x130_100000757.png",
+    "category": "rescued",
+    "preset": "10x130",
+    "gevt": 100000757,
+    "argmax_err_ns": 320.29901123046875,
+    "selector_err_ns": -29.70098876953125
+  },
+  {
+    "file": "argmax_ok_18x275_2.png",
+    "category": "argmax_ok",
+    "preset": "18x275",
+    "gevt": 2,
+    "argmax_err_ns": 5.0810546875,
+    "selector_err_ns": 30.0810546875
+  },
+  {
+    "file": "argmax_ok_10x130_100000005.png",
+    "category": "argmax_ok",
+    "preset": "10x130",
+    "gevt": 100000005,
+    "argmax_err_ns": 30.76702880859375,
+    "selector_err_ns": 30.76702880859375
+  },
+  {
+    "file": "still_missed_18x275_327.png",
+    "category": "still_missed",
+    "preset": "18x275",
+    "gevt": 327,
+    "argmax_err_ns": -701.39697265625,
+    "selector_err_ns": -726.39697265625
+  },
+  {
+    "file": "still_missed_10x130_100000430.png",
+    "category": "still_missed",
+    "preset": "10x130",
+    "gevt": 100000430,
+    "argmax_err_ns": -636.14794921875,
+    "selector_err_ns": -636.14794921875
+  },
+  {
+    "file": "still_missed_DVMP_200000012.png",
+    "category": "still_missed",
+    "preset": "DVMP",
+    "gevt": 200000012,
+    "argmax_err_ns": 353.8070068359375,
+    "selector_err_ns": 378.8070068359375
+  },
+  {
+    "file": "still_missed_DIS-NC_300000017.png",
+    "category": "still_missed",
+    "preset": "DIS-NC",
+    "gevt": 300000017,
+    "argmax_err_ns": 1324.626000404358,
+    "selector_err_ns": 1324.6259765625
+  }
+]

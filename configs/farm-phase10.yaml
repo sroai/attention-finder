@@ -1,0 +1,19 @@
+# Phase-10 farm profile (JLab): calorimeter-channel A/B on the 16k 10x130
+# background sample. Select with:
+#   export TRKBKG_CONFIG=<checkout>/configs/farm-phase10.yaml
+# CSVs come from the 8 phase-10 conversion jobs (first 2000 events per file,
+# eic2ai, roles trk_hits + cal_hits — see the README next to them).
+
+csv_root: /work/eic3/users/romanov/meson-structure-2026-06/csv-2026-09-bkg-phase10
+results_root: /work/eic3/users/romanov/optim-out/phase10
+
+parquet_dir: ${results_root}/parquet
+dataset_dir: ${results_root}/dataset
+runs_dir: ${results_root}/runs
+tmp_dir: ${results_root}/tmp
+runs_local_dir: ${results_root}/runs_local
+
+eic_workbench: /eic-workbench          # unused on the farm
+dd4hep_dir: /work/eic3/users/romanov/meson-structure-2026-06/dd4hep-background
+
+device: cuda

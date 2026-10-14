@@ -1,0 +1,126 @@
+{
+  "win_run": "watt_r2",
+  "wf_run": "wf_v2_r2",
+  "outside_run": "mlp_v1_r2",
+  "window_ns": [
+    -50.0,
+    300.0
+  ],
+  "thresholds": {
+    "inside": 0.9846063256263733,
+    "outside": 0.8204870223999023
+  },
+  "val": {
+    "signal_efficiency": 0.9900639819345126,
+    "background_rejection": 0.3995807152121661,
+    "kept_fraction_of_all_hits": 0.6023842490093682,
+    "albedo_filtered_fraction": 0.09216589861751157
+  },
+  "test": {
+    "signal_efficiency": 0.9887666699114183,
+    "background_rejection": 0.39880072937985145,
+    "kept_fraction_of_all_hits": 0.6030929033121203,
+    "albedo_filtered_fraction": 0.08944954128440363
+  },
+  "test_curve": [
+    {
+      "target": 0.95,
+      "signal_efficiency": 0.9472598072617541,
+      "background_rejection": 0.814806733803414,
+      "kept_fraction_of_all_hits": 0.18891895303455128,
+      "albedo_filtered_fraction": 0.1513761467889908
+    },
+    {
+      "target": 0.96,
+      "signal_efficiency": 0.9576170544144845,
+      "background_rejection": 0.7607977793887053,
+      "kept_fraction_of_all_hits": 0.24271468842320643,
+      "albedo_filtered_fraction": 0.1307339449541285
+    },
+    {
+      "target": 0.97,
+      "signal_efficiency": 0.9674291832960187,
+      "background_rejection": 0.6846526876774017,
+      "kept_fraction_of_all_hits": 0.3185356701356647,
+      "albedo_filtered_fraction": 0.10779816513761464
+    },
+    {
+      "target": 0.98,
+      "signal_efficiency": 0.9782342061715176,
+      "background_rejection": 0.5727459556305001,
+      "kept_fraction_of_all_hits": 0.4299477061491476,
+      "albedo_filtered_fraction": 0.09403669724770647
+    },
+    {
+      "target": 0.985,
+      "signal_efficiency": 0.9834322982575684,
+      "background_rejection": 0.4974089545096554,
+      "kept_fraction_of_all_hits": 0.5049419710968481,
+      "albedo_filtered_fraction": 0.07568807339449546
+    },
+    {
+      "target": 0.99,
+      "signal_efficiency": 0.9887666699114183,
+      "background_rejection": 0.39880072937985145,
+      "kept_fraction_of_all_hits": 0.6030929033121203,
+      "albedo_filtered_fraction": 0.08944954128440363
+    },
+    {
+      "target": 0.995,
+      "signal_efficiency": 0.9946266913267789,
+      "background_rejection": 0.2700948089365648,
+      "kept_fraction_of_all_hits": 0.7311991380225842,
+      "albedo_filtered_fraction": 0.04587155963302747
+    },
+    {
+      "target": 0.998,
+      "signal_efficiency": 0.9978779324442714,
+      "background_rejection": 0.1560630768303214,
+      "kept_fraction_of_all_hits": 0.8446899651512901,
+      "albedo_filtered_fraction": 0.011467889908256867
+    }
+  ],
+  "decomposition": {
+    "finder_est": {
+      "signal_efficiency": 0.9887666699114183,
+      "background_rejection": 0.39880072937985145,
+      "window_alone": {
+        "signal_eff_if_hard_cut": 0.8823517959700184,
+        "bkg_rejection_if_hard_cut": 0.8341392876250862
+      },
+      "background_budget": {
+        "inside_share_of_bkg": 0.1658607123749138,
+        "inside_rejected": 0.67525548347801,
+        "outside_share_of_bkg": 0.8341392876250863,
+        "outside_rejected": 0.34383031480472437
+      },
+      "signal_budget": {
+        "inside_share_of_sig": 0.8823517959700184,
+        "inside_kept": 0.9968227350955385,
+        "outside_share_of_sig": 0.11764820402998151,
+        "outside_kept": 0.9283468475922555
+      },
+      "outside_signal_from_missed_frames": 0.9594572232334933
+    },
+    "finder_true": {
+      "signal_efficiency": 0.9897011583763263,
+      "background_rejection": 0.9753216672434674,
+      "window_alone": {
+        "signal_eff_if_hard_cut": 0.9950160615204906,
+        "bkg_rejection_if_hard_cut": 0.8366276483576373
+      },
+      "background_budget": {
+        "inside_share_of_bkg": 0.16337235164236272,
+        "inside_rejected": 0.8503605559675383,
+        "outside_share_of_bkg": 0.8366276483576373,
+        "outside_rejected": 0.9997234314608799
+      },
+      "signal_budget": {
+        "inside_share_of_sig": 0.9950160615204906,
+        "inside_kept": 0.99309319297971,
+        "outside_share_of_sig": 0.004983938479509393,
+        "outside_kept": 0.3125
+      }
+    }
+  }
+}

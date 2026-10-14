@@ -1,0 +1,41 @@
+{
+  "run": "finder2d_v1",
+  "test_frames": 3350,
+  "recall_within_50ns": 0.8788059701492538,
+  "missed_frames": 406,
+  "miss_true_rank": {
+    "median": 2.0,
+    "top3": 0.6896551724137931,
+    "top5": 0.8103448275862069,
+    "top10": 0.9064039408866995,
+    "deep(>=20)": 0.034482758620689655
+  },
+  "miss_pred_busier_than_true": 0.47783251231527096,
+  "per_preset": {
+    "18x275_v3": {
+      "recall": 0.8832555036691128,
+      "median_brightness": 3.8542709350585938,
+      "miss_median_brightness": 4.168689727783203
+    },
+    "10x130_v3": {
+      "recall": 0.917766497461929,
+      "median_brightness": 4.063121795654297,
+      "miss_median_brightness": 4.179893493652344
+    },
+    "background_dvmp-10x275-25-10_v3": {
+      "recall": 0.8196480938416423,
+      "median_brightness": 4.311356544494629,
+      "miss_median_brightness": 3.535062789916992
+    },
+    "background-dis-nc-10x275_v3": {
+      "recall": 0.8532608695652174,
+      "median_brightness": 5.842170715332031,
+      "miss_median_brightness": 6.1402587890625
+    }
+  },
+  "tta": {
+    "n_shifts": 8,
+    "recall_within_50ns": 0.8814925373134328,
+    "gain": 0.0026865671641790323
+  }
+}

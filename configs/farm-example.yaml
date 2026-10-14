@@ -1,0 +1,29 @@
+# attention-finder machine profile — EXAMPLE for a slurm farm
+#
+# Copy this next to your data, edit the paths, then either
+#     export TRKBKG_CONFIG=/path/to/my-farm.yaml
+# in your job script, or pass it per-command:
+#     TRKBKG_CONFIG=my-farm.yaml python scripts/310_train_hit_classifier.py mlp_v1
+#
+# See docs/running-on-a-farm.md for a complete sbatch example
+# ("train overnight, collect results in the morning").
+
+csv_root: /volatile/eic/USER/csv-ai-reco-background
+results_root: /volatile/eic/USER/ai-results
+
+parquet_dir: ${results_root}/parquet
+dataset_dir: ${results_root}/dataset
+runs_dir: ${results_root}/runs
+tmp_dir: ${results_root}/tmp
+
+# On a farm, node-local scratch is the right place for live checkpoints;
+# copy the finished run to runs_dir at the end of the job (the trainers
+# already write their final metrics/ONNX under the run dir).
+runs_local_dir: /scratch/USER/trkbkg-runs
+
+# 600-series (EICrecon) scripts are usually not run on the farm; leave as-is
+# or point at your own build.
+eic_workbench: /eic-workbench
+dd4hep_dir: /volatile/eic/USER/dd4hep-background
+
+device: cuda

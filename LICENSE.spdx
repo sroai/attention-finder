@@ -1,0 +1,7 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentNamespace: https://github.com/sroai/attention-finder/LICENSE.spdx-764a050b-2054-4dbf-bff6-1f60cd60e3f2
+PackageName: attention-finder
+PackageOriginator: Person: Dmitry Romanov
+PackageHomePage: https://github.com/sroai/attention-finder
+PackageLicenseDeclared: LGPL-3.0-or-later

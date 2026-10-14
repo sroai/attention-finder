@@ -1,0 +1,23 @@
+# bulky inputs and outputs named by configs/local.yaml
+/data/
+/results/
+
+# your training runs land in models/ next to the shipped checkpoints
+/models/*
+!/models/finder2d_v1/
+!/models/watt_all_v1/
+!/models/wver_v3/
+!/models/t0_final_v2/
+!/models/mlp_v1_r3/
+!/models/wf_v2_r3/
+!/models/watt_r2/
+!/models/p10_trk/
+!/models/p10_cal/
+!/models/p12bgx_trk/
+!/models/p12bgx_cal/
+!/models/p12_trk/
+!/models/p12_cal/
+
+__pycache__/
+*.py[cod]
+.venv/

@@ -1,0 +1,9 @@
+{
+  "model": "window_finder_cnn",
+  "width": 32,
+  "epochs": 200,
+  "lr": 0.001,
+  "bin_ns": 25.0,
+  "train_frames": 7000,
+  "val_frames": 1499
+}

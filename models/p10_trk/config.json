@@ -1,0 +1,17 @@
+{
+  "model": "window_finder_2d",
+  "dataset": "images2d_p10",
+  "channels": 2,
+  "width": 32,
+  "blocks": 3,
+  "batchnorm": false,
+  "epochs": 40,
+  "batch": 256,
+  "lr": 0.001,
+  "augment": true,
+  "per_sample_roll": true,
+  "smooth": 0.05,
+  "train_frames": 32018,
+  "val_frames": 3986,
+  "parameters": 180289
+}
